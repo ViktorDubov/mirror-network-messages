@@ -14,23 +14,41 @@
 
 Assets/
 ├── Scripts/
+
 │   ├── Shared/
+
 │   │   ├── GameLifetimeScope.cs
+
 │   │   ├── NetworkBootstrap.cs
+
 │   │   ├── NetworkSpawnMediator.cs
+
 │   │   ├── SubscriptionNetworkBehaviour.cs
+
 │   │   ├── ISubscriptionService.cs
+
 │   │   ├── IClientSubscriptionCallbacks.cs
+
 │   │   └── IServerSubscriptionHandler.cs
+
 │   ├── Server/
+
 │   │   ├── ServerLifetimeScope.cs
+
 │   │   ├── SubscriptionServiceServer.cs
+
 │   │   └── MessageRouterServer.cs
+
 │   ├── Client/
+
 │   │   ├── ClientLifetimeScope.cs
+
 │   │   ├── SubscriptionServiceClient.cs
+
 │   │   └── MessageHandlerClient.cs
+
 │   └── Messages/
+
 │       └── NetworkMessages.cs
 
 ## Зависимости
